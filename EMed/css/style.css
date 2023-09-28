@@ -1,0 +1,347 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 0px;
+    background-color: #28FFBF;
+}
+.logo{
+    height: 60px;
+    width: 15%;
+    /* border: 1px solid black; */
+    margin: 10px 10px 10px 40px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    padding: 13px;
+    box-sizing: border-box;
+}
+.Sbar{
+    height:60px;
+    width: 60%;
+    /* border: 1px solid black; */
+    margin: 10px 10px 10px 40px;
+    float: left;
+}
+.Slbl{
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    margin: 15px 0px 0px 15px;
+}
+.stb{
+    /* border: 1px solid blue; */
+    width: 87%;
+    float: left;
+    margin-left: 10px;
+}
+.Stext{
+    margin: 5px 0px 0px 0px;
+    padding:0px 20px;
+    font-size: 25px;
+    height: 51px;
+    width: 90%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+    border: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+.SButn{
+    
+    height: 51px;
+    width:10%;
+    float: left;
+    margin-top: 5px;
+    border: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+.EmedInfo{
+    height: 60px;
+    width: 10%;
+    /* border: 1px solid black; */
+    margin: 10px 10px 10px 40px;
+    float: left;
+    text-align: center;
+    padding: 13px;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.nav{
+    height: 40px;
+    width: 100%;
+    background-color: #28FFBF;
+    /* border: 1px solid black; */
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+.nav ul{
+    margin: 0px;
+    display: inline;
+    list-style-type: none;
+    
+}
+.navRight{
+    float: right;
+}
+.navLeft{
+    float: left;
+}
+.nav li{
+    float: left;
+    padding: 6px;
+    text-align: center;
+    margin-right: 5px;
+    
+    cursor: pointer;
+    
+}
+.leftslide{
+    height: 250px; 
+    width:3%;   
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 15%;
+    z-index: 99;
+
+}
+.rightslide{
+    height: 250px; 
+    width:3%;   
+    opacity: 15%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 99;
+    cursor: pointer;
+}
+.slide{
+    width: 100%;
+    height:250px;
+    border: 1px solid black;
+   box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    
+}
+.slideimg1{
+    width: 100%;
+    height:250px;
+    float: left;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+
+}
+
+.main1{
+    width: 96%;
+    height: 110vh; /*140vh for 6*/
+    margin: 2%;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+.med1{
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    margin-left: 3%;
+    width: 20.33%;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    background-color: azure;
+}
+/* .med1:nth-child(3n+1),.med1:nth-child(3n) {
+    border-right:1px solid red ;
+    border-left:1px solid red ;
+} */
+.innerimg{
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    
+}
+.main1 p{
+    /* border: 1px solid red; */
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+.main1 ul{
+    width: 100%;
+    padding-left: 42%;
+    margin-top: 25px;
+    list-style-type: none ;
+    display: inline;
+    float: left;
+    text-align:  center;
+    /* border: 1px solid black; */
+    box-sizing:border-box;
+}
+.main1 li{
+    float: left;
+    padding: 5px;
+    text-align: center;
+    margin-right: 3%;
+    cursor: pointer;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+}
+.main1 li:hover{
+    background-color: rgb(45, 156, 156);
+}
+
+.main2{
+    float: left;
+    position: relative;
+    width: auto;
+    height: 270px;
+    border: 1px solid black;
+    margin-bottom: 100px;
+    white-space: nowrap;
+    
+    
+}
+
+.main2 .element{
+    
+    margin: 5px;
+    margin-top: 10px;
+    width: 11.11%;
+    display: inline-block;
+    border-radius: 5px;
+    box-sizing: border-box;
+    opacity: 80%;
+}
+.main2 .element:hover{
+    opacity: 100%;
+    border: 1px solid black;
+}
+
+
+.arrows{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10%;
+    height: 30px;
+    /* border: 1px solid black; */
+}
+.arrows label{
+    display: block;
+    /* border: 1px solid black; */
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    float: left;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.arrows label:hover{
+    background-color:rgb(45, 156, 156);;
+}
+
+.element img{
+    width :100%;
+    height: 210px;
+    border-radius: 5px;
+}
+footer{
+    float: left;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+footer ul{
+    list-style-type: none;
+    font-size: 20px;
+    float: left;
+    margin: 70px 20% 80px 10%;
+}
+footer li{
+    padding: 10px;
+}
+footer img{
+    height :50px;
+    width: 50px;
+}
+
+/* login page */
+.bdy{
+    margin-top: 7%;
+    /* border: 1px solid black; */
+    /* align-items: center; */
+    font-size: 25px;
+    text-align: center;
+}
+.bdy p{
+    font-size: 20px;
+}
+.textbox{
+    height: 30px;
+    width: 20%;
+    outline: none;
+    font-size: 24px;
+    margin-top: 30px;
+    background-color: #EEEEEE;
+    border: 0px;
+    border-bottom: 2px solid black;
+    color: green;
+}
+.bttn{
+    width: 80px;
+    height: 27px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #28FFBF;
+    color: green;
+    cursor: pointer;
+}
+
+/* GetInfo Page  */
+.infomed{
+    height: 250px;
+    width: 98%;
+    margin: 1%;
+    border: 1px solid black;
+    border-radius:10px;
+    float: left;
+    background-color: beige ;
+}
+.infomed h3{
+    margin-left: 60px;
+}
+.infomed p{
+    float: left;
+    width: 80%;
+    margin:0 30px;
+}
+
+.infomed img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
